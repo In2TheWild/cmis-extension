@@ -13,7 +13,7 @@ public class AspectExampleTest {
         config.setCmisPath("http://127.0.0.1:8081/alfresco/api/-default-/public/cmis/versions/1.0/atom");
 
         JDocument doc = new JDocument();
-        doc.setFolderPath("/wk");
+        doc.setFolderPath("/wk/wk/wk");
         doc.setContentName("Hello-World-III.pdf");
         doc.setDescription("This is sample document called ...");
         doc.setTitle("Have a good day");
