@@ -1,0 +1,25 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cmis</groupId>
+    <artifactId>cmis-extension</artifactId>
+    <version>1.0</version>
+
+    <build>
+    </build>
+    <repositories>
+        <repository>
+             <id>maven.alfresco.com</id>
+             <name>Alfresco Maven Repository</name>
+             <url>http://maven.alfresco.com/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.alfresco.cmis.client</groupId>
+            <artifactId>alfresco-opencmis-extension</artifactId>
+            <version>0.2</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
+</project>
